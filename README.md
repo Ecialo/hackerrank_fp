@@ -1,21 +1,9 @@
 # Hakerrank
 
-**TODO: Add description**
+Solve some [Hakerrank FP](https://www.hackerrank.com/domains/fp) problems in elixir.
 
-## Installation
+## List of solved
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `hakerrank` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:hakerrank, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/hakerrank](https://hexdocs.pm/hakerrank).
-
+* [Solve Me First Fp](https://www.hackerrank.com/challenges/fp-solve-me-first/problem)
+* [Hello World](https://www.hackerrank.com/challenges/fp-hello-world/problem)
+* [Hello World N Times](https://www.hackerrank.com/challenges/fp-hello-world-n-times/problem)
