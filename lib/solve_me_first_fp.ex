@@ -1,4 +1,4 @@
-defmodule Hakerrank.SolveMeFirstFP do
+defmodule Hackerrank.SolveMeFirstFP do
   def main do
     x = IO.read(:line) |> String.trim |> String.to_integer
     y = IO.read(:line) |> String.trim |> String.to_integer

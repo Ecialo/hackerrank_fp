@@ -1,4 +1,4 @@
-defmodule Hakerrank.ListReplication do
+defmodule Hackerrank.ListReplication do
 
   def main do
     x = IO.read(:line) |> String.trim |> String.to_integer

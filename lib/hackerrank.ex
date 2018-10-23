@@ -1,6 +1,6 @@
-defmodule Hakerrank do
+defmodule Hackerrank do
   @moduledoc """
-  Documentation for Hakerrank.
+  Documentation for Hackerrank.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule Hakerrank do
 
   ## Examples
 
-      iex> Hakerrank.hello
+      iex> Hackerrank.hello
       :world
 
   """

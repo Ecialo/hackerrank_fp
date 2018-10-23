@@ -1,4 +1,4 @@
-defmodule Hakerrank.FilterArray do
+defmodule Hackerrank.FilterArray do
   def main do
     x = IO.read(:line) |> String.trim |> String.to_integer
     IO.read(:all)

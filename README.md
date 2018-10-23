@@ -1,6 +1,6 @@
-# Hakerrank
+# Hackerrank
 
-Solve some [Hakerrank FP](https://www.hackerrank.com/domains/fp) problems in elixir.
+Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in elixir.
 
 ## List of solved
 

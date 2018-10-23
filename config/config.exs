@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure your application as:
 #
-#     config :hakerrank, key: :value
+#     config :hackerrank, key: :value
 #
 # and access this configuration in your application as:
 #
-#     Application.get_env(:hakerrank, :key)
+#     Application.get_env(:hackerrank, :key)
 #
 # You can also configure a 3rd-party app:
 #

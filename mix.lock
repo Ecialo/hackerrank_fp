@@ -1,0 +1,3 @@
+%{
+  "rename": {:hex, :rename, "0.1.0", "dc9727684c1000453b94aa7647abf6a715eb24c84a870a23751cf013f462655c", [:mix], [], "hexpm"},
+}

@@ -1,4 +1,4 @@
-defmodule Hakerrank.HelloWorldNTimes do
+defmodule Hackerrank.HelloWorldNTimes do
   def main do
     IO.read(:line)
       |> String.trim()
