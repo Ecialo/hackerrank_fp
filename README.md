@@ -14,3 +14,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Reverse A List](https://www.hackerrank.com/challenges/fp-reverse-a-list/problem)
 * [Sum Of Odd Elements](https://www.hackerrank.com/challenges/fp-sum-of-odd-elements/problem)
 * [List Length](https://www.hackerrank.com/challenges/fp-list-length/problem)
+* [Update List](https://www.hackerrank.com/challenges/fp-update-list/problem)
