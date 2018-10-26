@@ -16,3 +16,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [List Length](https://www.hackerrank.com/challenges/fp-list-length/problem)
 * [Update List](https://www.hackerrank.com/challenges/fp-update-list/problem)
 * [Evaluating e^x](https://www.hackerrank.com/challenges/eval-ex/problem) (Look for e_pow_x in repo)
+* [Prefix Compression](https://www.hackerrank.com/challenges/prefix-compression/problem)
