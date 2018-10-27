@@ -17,4 +17,5 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Update List](https://www.hackerrank.com/challenges/fp-update-list/problem)
 * [Evaluating e^x](https://www.hackerrank.com/challenges/eval-ex/problem) (Look for e_pow_x in repo)
 * [Prefix Compression](https://www.hackerrank.com/challenges/prefix-compression/problem)
-* [Area Under Curves and Volume of Revolving a Curve](https://www.hackerrank.com/challenges/area-under-curves-and-volume-of-revolving-a-curv/problem) (look for area and volume of curve in repo)
+* [Area Under Curves and Volume of Revolving a Curve](https://www.hackerrank.com/challenges/area-under-curves-and-volume-of-revolving-a-curv/problem) (look for area_and_volume_of_curve in repo)
+* [Functions Or Not?](https://www.hackerrank.com/challenges/functions-or-not/problem)
