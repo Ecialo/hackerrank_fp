@@ -24,3 +24,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Computing the GCD](https://www.hackerrank.com/challenges/functional-programming-warmups-in-recursion---gcd/problem)
 * [Fibonacci Numbers](https://www.hackerrank.com/challenges/functional-programming-warmups-in-recursion---fibonacci-numbers/problem)
 * [Pascal's Triangle](https://www.hackerrank.com/challenges/pascals-triangle/problem)
+* [String Mingling](https://www.hackerrank.com/challenges/string-mingling/problem)
