@@ -28,3 +28,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Tree Manager](https://www.hackerrank.com/challenges/tree-manager/problem)
 * [String-o-Permute](https://www.hackerrank.com/challenges/string-o-permute/problem)
 * [String Compression](https://www.hackerrank.com/challenges/string-compression/problem)
+* [String Reductions](https://www.hackerrank.com/challenges/string-reductions/problem)
