@@ -25,3 +25,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Fibonacci Numbers](https://www.hackerrank.com/challenges/functional-programming-warmups-in-recursion---fibonacci-numbers/problem)
 * [Pascal's Triangle](https://www.hackerrank.com/challenges/pascals-triangle/problem)
 * [String Mingling](https://www.hackerrank.com/challenges/string-mingling/problem)
+* [Tree Manager](https://www.hackerrank.com/challenges/tree-manager/problem)
