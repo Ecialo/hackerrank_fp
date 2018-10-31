@@ -27,3 +27,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [String Mingling](https://www.hackerrank.com/challenges/string-mingling/problem)
 * [Tree Manager](https://www.hackerrank.com/challenges/tree-manager/problem)
 * [String-o-Permute](https://www.hackerrank.com/challenges/string-o-permute/problem)
+* [String Compression](https://www.hackerrank.com/challenges/string-compression/problem)
