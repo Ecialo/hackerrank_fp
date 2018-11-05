@@ -29,3 +29,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [String-o-Permute](https://www.hackerrank.com/challenges/string-o-permute/problem)
 * [String Compression](https://www.hackerrank.com/challenges/string-compression/problem)
 * [String Reductions](https://www.hackerrank.com/challenges/string-reductions/problem)
+* [Simplify the Algebraic Expressions](https://www.hackerrank.com/challenges/simplify-the-algebraic-expressions/problem)
