@@ -98,7 +98,7 @@ defmodule SimplifyTheAlgebraicExpressionsTest do
       "100x^2 + 39x + 20"
     ]
     computed = for expr <- exprs do
-      IO.puts(expr)
+      # IO.puts(expr)
       SAE.main(expr)
     end
     assert computed == results

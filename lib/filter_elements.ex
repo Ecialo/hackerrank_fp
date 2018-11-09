@@ -1,5 +1,24 @@
 defmodule Hackerranck.FilterElements do
 
+  def main do
+    cases = IO.read(:line) |> String.trim() |> String.to_integer()
+    process_case(cases)
+  end
+
+  def process_case(0) do end
+  def process_case(cases_left) do
+    [_, k] = IO.read(:line) |> String.split()
+    k = String.to_integer(k)
+    IO.read(:line)
+      |> String.split()
+      |> Enum.map(&String.to_integer/1)
+      |> filter(k)
+      |> Enum.map(&Integer.to_string/1)
+      |> Enum.join(" ")
+      |> IO.puts()
+    process_case(cases_left - 1)
+  end
+
   def filter(elements, k) do
     elements
       |> aggregate(0, %{})
@@ -19,7 +38,9 @@ defmodule Hackerranck.FilterElements do
   end
 
   def aggregate([h | t], pos, acc) do
-    if h in acc do
+    # IO.inspect(h, label: "head")
+    # IO.inspect(acc, label: "acc")
+    if Map.has_key?(acc, h) do
       {spos, times} = acc[h]
       aggregate(t, pos + 1, %{acc | h => {spos, times + 1}})
     else
