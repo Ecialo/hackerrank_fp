@@ -5,7 +5,13 @@ defmodule Hackerranck.FilterElements do
       |> aggregate(0, %{})
       |> Enum.filter(fn {_k, {_spos, times}} -> times >= k end)
       |> Enum.sort(fn {_, {spos_a, _}}, {_, {spos_b, _}} -> spos_a < spos_b end)
-      |> Enum.map()  
+      |> Enum.map(fn {k, {_spos, _times}} -> k end)
+      |> (fn r ->
+            case r do
+              [] -> [-1]
+              l -> l
+            end
+          end).()
   end
 
   def aggregate([], _, acc) do
