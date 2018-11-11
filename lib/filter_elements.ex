@@ -1,4 +1,4 @@
-defmodule Hackerranck.FilterElements do
+defmodule Hackerrank.FilterElements do
 
   def main do
     cases = IO.read(:line) |> String.trim() |> String.to_integer()

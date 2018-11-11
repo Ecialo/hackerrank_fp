@@ -30,3 +30,5 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [String Compression](https://www.hackerrank.com/challenges/string-compression/problem)
 * [String Reductions](https://www.hackerrank.com/challenges/string-reductions/problem)
 * [Simplify the Algebraic Expressions](https://www.hackerrank.com/challenges/simplify-the-algebraic-expressions/problem)
+* [Filter Elements](https://www.hackerrank.com/challenges/filter-elements/problem)
+* [BrainF__k interpreter](https://www.hackerrank.com/challenges/brainf-k-interpreter-fp/problem)
