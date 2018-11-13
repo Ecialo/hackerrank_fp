@@ -32,4 +32,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Simplify the Algebraic Expressions](https://www.hackerrank.com/challenges/simplify-the-algebraic-expressions/problem)
 * [Filter Elements](https://www.hackerrank.com/challenges/filter-elements/problem)
 * [BrainF__k interpreter](https://www.hackerrank.com/challenges/brainf-k-interpreter-fp/problem)
-* [Fighting Armies](https://www.hackerrank.com/challenges/fighting-armies/problem) (53.72/60 Get AC on some version of TrashApproach, which I picked up from [this](https://github.com/maggisk/hackerrank/blob/master/fighting-armies.exs))
+* [Fighting Armies](https://www.hackerrank.com/challenges/fighting-armies/problem) (53.72/60 Got AC on some version of TrashApproach, which I picked up from [this](https://github.com/maggisk/hackerrank/blob/master/fighting-armies.exs))
