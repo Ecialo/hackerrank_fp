@@ -33,3 +33,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Filter Elements](https://www.hackerrank.com/challenges/filter-elements/problem)
 * [BrainF__k interpreter](https://www.hackerrank.com/challenges/brainf-k-interpreter-fp/problem)
 * [Fighting Armies](https://www.hackerrank.com/challenges/fighting-armies/problem) (53.72/60 Got AC on some version of TrashApproach, which I picked up from [this](https://github.com/maggisk/hackerrank/blob/master/fighting-armies.exs))
+* [Lists and GCD](https://www.hackerrank.com/challenges/lists-and-gcd/problem)
