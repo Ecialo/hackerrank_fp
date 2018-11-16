@@ -37,3 +37,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Rotate String](https://www.hackerrank.com/challenges/rotate-string/problem)
 * [Pentagonal Numbers](https://www.hackerrank.com/challenges/pentagonal-numbers/problem)
 * [Fibonacci](https://www.hackerrank.com/challenges/fibonacci-fp/problem)
+* [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers-fp/problem)
