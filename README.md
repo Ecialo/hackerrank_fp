@@ -35,3 +35,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Fighting Armies](https://www.hackerrank.com/challenges/fighting-armies/problem) (53.72/60 Got AC on some version of TrashApproach, which I picked up from [this](https://github.com/maggisk/hackerrank/blob/master/fighting-armies.exs))
 * [Lists and GCD](https://www.hackerrank.com/challenges/lists-and-gcd/problem)
 * [Rotate String](https://www.hackerrank.com/challenges/rotate-string/problem)
+* [Pentagonal Numbers](https://www.hackerrank.com/challenges/pentagonal-numbers/problem)
