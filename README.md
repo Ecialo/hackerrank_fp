@@ -39,3 +39,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Fibonacci](https://www.hackerrank.com/challenges/fibonacci-fp/problem)
 * [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers-fp/problem)
 * [Sequence full of colors](https://www.hackerrank.com/challenges/sequence-full-of-colors/problem)
+* [Remove Duplicates](https://www.hackerrank.com/challenges/remove-duplicates/problem)
