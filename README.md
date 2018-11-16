@@ -36,3 +36,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Lists and GCD](https://www.hackerrank.com/challenges/lists-and-gcd/problem)
 * [Rotate String](https://www.hackerrank.com/challenges/rotate-string/problem)
 * [Pentagonal Numbers](https://www.hackerrank.com/challenges/pentagonal-numbers/problem)
+* [Fibonacci](https://www.hackerrank.com/challenges/fibonacci-fp/problem)
