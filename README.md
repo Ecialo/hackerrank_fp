@@ -41,3 +41,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [Sequence full of colors](https://www.hackerrank.com/challenges/sequence-full-of-colors/problem)
 * [Remove Duplicates](https://www.hackerrank.com/challenges/remove-duplicates/problem)
 * [Super Digit](https://www.hackerrank.com/challenges/super-digit/problem)
+* [The Tree Of Life](https://www.hackerrank.com/challenges/the-tree-of-life/problem)
