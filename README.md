@@ -44,3 +44,4 @@ Solve some [Hackerrank FP](https://www.hackerrank.com/domains/fp) problems in el
 * [The Tree Of Life](https://www.hackerrank.com/challenges/the-tree-of-life/problem)
 * [Dice Path](https://www.hackerrank.com/challenges/dice-path/problem)
 * [Password Cracker FP](https://www.hackerrank.com/challenges/password-cracker-fp/problem)
+* [Bitter Chocolate](https://www.hackerrank.com/challenges/bitter-chocolate/problem)
