@@ -1,6 +1,6 @@
 defmodule Hackerrank.PasswordCracker do
 
-  alias Hackerrank.Candybox.PrefixTree
+  alias Hackerrank.Candybox.{PrefixTree, Memo}
 
   @err_msg "WRONG PASSWORD"
 
@@ -31,26 +31,43 @@ defmodule Hackerrank.PasswordCracker do
 
   def check_password(
     ptree,
-    <<h::binary-size(1), rest::binary>>,
+    s = <<h::binary-size(1), rest::binary>>,
     cur_ptree = %PrefixTree{terminal: ter},
     [b | t]
     ) do
-    case PrefixTree.move(cur_ptree, h) do
-      {:ok, new_cur_ptree} -> # Can extend current password
-        check_password(ptree, rest, new_cur_ptree, [h <> b | t])
-      :error when ter ->  # End of current password
-        case PrefixTree.move(ptree, h) do
-        {:ok, new_cur_ptree} -> # brand new password
-          password = String.reverse(b)  # the old one a complete one, but back to front
-          check_password(ptree, rest, new_cur_ptree, [h, password | t])
-        :error -> @err_msg  # We fucked
-        end
-      :error -> @err_msg  # We fucked
+
+    k = {ptree, cur_ptree, s}
+    case Memo.retrieve(k) do
+      nil ->
+        extend_case =
+          case PrefixTree.move(cur_ptree, h) do
+            {:ok, new_cur_ptree} -> # Can extend current password
+              check_password(ptree, rest, new_cur_ptree, [h <> b | t])
+            :error -> @err_msg
+          end
+
+        result =
+          if extend_case == @err_msg and ter do
+            case PrefixTree.move(ptree, h) do
+              {:ok, new_cur_ptree} -> # brand new password
+                password = String.reverse(b)  # the old one a complete one, but back to front
+                check_password(ptree, rest, new_cur_ptree, [h, password | t])
+              :error -> @err_msg  # We fucked
+            end
+          else
+            extend_case
+          end
+        Memo.update(k, result)
+        result
+
+      result -> result
     end
   end
 
 
   def main do
+    Memo.start_link(:ok)
+
     IO.read(:line)
     |> String.trim()
     |> String.to_integer()

@@ -3,7 +3,13 @@ defmodule PasswordCrackerTest do
 
   import ExUnit.CaptureIO
 
+  alias Hackerrank.Candybox.Memo
   alias Hackerrank.PasswordCracker
+
+  setup_all do
+    {:ok, %{fact_agent: Memo.start_link(:ok)}}
+  end
+
 
   test "we do what we must because we can" do
     ptree = PasswordCracker.make_password_prefix_tree(~w"because can do must we what")
@@ -37,6 +43,13 @@ defmodule PasswordCrackerTest do
     output = "zfzahm\ngurwgrb\nWRONG PASSWORD"
 
     assert capture_io(input, &PasswordCracker.main/0) == output
+  end
+
+  test "hardcore" do
+    ptree = PasswordCracker.make_password_prefix_tree(~w"we web adaman barcod")
+    res = PasswordCracker.check_password(ptree, "webarcodwebadamanweb")
+    assumed = "we barcod web adaman web"
+    assert res == assumed
   end
 
 end
